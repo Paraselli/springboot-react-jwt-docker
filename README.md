@@ -161,4 +161,9 @@ Ram P
 
 ---
 
+🔗 Connect with me
+linkedin.com/in/ram-paraselli | github.com/Paraselli
+
+---
+
 ## ⭐ If you like this project, give it a star!
