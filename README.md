@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This project is a **full-stack web application** built using:
+This project is a **full-stack application** built using:
 
 * Spring Boot (Backend APIs)
 * React (Frontend UI)
@@ -18,7 +18,7 @@ It demonstrates how to build a **secure, scalable, and containerized application
 Frontend (React) → Backend (Spring Boot API) → JWT Authentication
 
 * Users authenticate using JWT tokens
-* Backend validates tokens for secured endpoints
+* Backend validates tokens for protected endpoints
 
 ---
 
@@ -45,7 +45,7 @@ Frontend (React) → Backend (Spring Boot API) → JWT Authentication
 
 ## 📂 Project Structure
 
-```id="grsajh"
+```id="n7nm5o"
 springboot-react-jwt-docker/
 ├── backend/
 ├── frontend/
@@ -57,40 +57,40 @@ springboot-react-jwt-docker/
 
 ## ⚙️ Setup Instructions
 
-### 🔹 1. Clone Repository
+### 🔹 Clone Repository
 
-```id="nvd86k"
-git clone https://github.com/<your-username>/springboot-react-jwt-docker.git
+```id="x1lbxo"
+git clone https://github.com/Paraselli/springboot-react-jwt-docker.git
 cd springboot-react-jwt-docker
 ```
 
 ---
 
-### 🔹 2. Run with Docker (Recommended)
+### 🔹 Run with Docker (Recommended)
 
-```id="jpw6cd"
+```id="kkjy0j"
 docker-compose up --build
 ```
 
-👉 This will:
+👉 This will start:
 
-* Start Spring Boot backend
-* Start React frontend
+* Spring Boot backend
+* React frontend
 
 ---
 
-### 🔹 3. Run Without Docker
+### 🔹 Run Without Docker
 
 #### Backend
 
-```id="0k9e5j"
+```id="2ncsw7"
 cd backend
 mvn spring-boot:run
 ```
 
 #### Frontend
 
-```id="mcdhlk"
+```id="5ovnjr"
 cd frontend
 npm install
 npm start
@@ -104,7 +104,7 @@ npm start
 2. Backend generates JWT token
 3. Token sent to frontend
 4. Frontend stores token
-5. Token sent in headers for protected APIs
+5. Token is included in headers for protected APIs
 
 ---
 
@@ -120,9 +120,7 @@ npm start
 
 ## 🐳 Docker Setup
 
-### Build & Run
-
-```id="9rlqgo"
+```id="l9y2p2"
 docker-compose up --build
 ```
 
@@ -147,7 +145,7 @@ docker-compose up --build
 
 ## 📈 Future Improvements
 
-* Refresh token mechanism
+* Refresh token implementation
 * Role-based access control (RBAC)
 * CI/CD pipeline integration
 * Kubernetes deployment
@@ -161,8 +159,10 @@ Ram P
 
 ---
 
-🔗 Connect with me
-linkedin.com/in/ram-paraselli | github.com/Paraselli
+## 🔗 Connect with me
+
+🔗 https://linkedin.com/in/ram-paraselli
+💻 https://github.com/Paraselli
 
 ---
 
